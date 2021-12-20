@@ -1,0 +1,287 @@
+
+
+.static-container{
+ width: 100%;
+height: 90vh;
+background-color:#3c4850;
+}
+
+.static-text{
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    color: wheat;
+}
+
+.first-text h1{
+   font-size: 30px;
+   font-weight: normal;
+ 
+}
+
+.first-text p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.second-text{
+    padding-top: 30px;
+}
+
+.second-text h1{
+    font-size: 30px;
+    font-weight: normal;
+  
+}
+
+.second-text p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.galery{
+    max-width: 1200px;
+    margin: auto;
+   padding-bottom: 40px;
+   z-index: 1;
+
+   
+   
+}
+
+.galery h1{
+ margin-bottom: 30px;
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 40px;
+    border-left: 10px solid brown;
+    color: wheat;
+    padding-left: 10px;
+    
+
+}
+
+.images img{
+    width: 350px;
+    padding: 10px 15px;
+    filter:opacity(100%);
+    transition: 1s;
+    cursor: pointer;
+  
+}
+
+
+.images img:hover{
+    filter: opacity(80%);
+    transform: scale(1.1);
+}
+
+.images button{
+   margin-left: 10px;
+   margin-bottom: 10px;
+   border: 2px solid grey;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px 3px rgb(161, 146, 143);
+}
+.preview-box-backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 100;
+}
+.preview-box{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    z-index: 106;
+
+}
+
+
+.preview-box .detail span{
+cursor: pointer;
+float: left;
+font-size: 25px;
+color: brown;
+border: 2px solid rgb(109, 92, 92);
+
+}
+
+
+.preview-box .image-box{
+    display: flex;
+    width: 100%;
+}
+
+.image-box img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .static-container{
+        height: 560vh;
+        width: 100%;
+        margin: auto;
+       
+    }
+
+    .images img{
+        max-width: 300px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 1200px){
+    .images img{
+        max-width: 290px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 1024px){
+    .images img{
+        max-width: 293px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 768px){
+    .images img{
+        max-width: 335px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 540px){
+    .images img{
+        max-width: 220px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 414px){
+    .images img{
+        max-width: 360px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+
+@media screen and (max-width: 375px){
+    .images img{
+        max-width: 320px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 360px){
+    .images img{
+        max-width: 305px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 320px){
+    .images img{
+        max-width: 270px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+@media screen and (max-width: 280px){
+    .images img{
+        max-width: 225px;
+        filter:opacity(100%);
+        transition: 1s;
+        cursor: pointer;
+}
+
+.galery{
+    padding: 10px 0px
+}
+
+}
+
+
+
+
+
+
+
+

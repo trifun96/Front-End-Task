@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+.home-container{
+  width: 100%;
+ padding-bottom: 20px;
+ background-color:#3c4850;
+ }
+
+ .wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 1350px;
+   margin: 0 auto;
+   justify-content: space-evenly;
+
+ }
+ 
+
+
+ .left{
+  margin-top: 50px;
+ }
+ .left img{
+   width: 200px;
+   border-radius: 100px;
+   margin-top: 30px;
+ }
+
+ .images-content {
+   display: flex;
+ }
+
+ .images-content h3{
+   margin-top: 110px;
+   margin-left: 20px;
+   color: wheat;
+ }
+
+ .info h1{
+   font-size: 25px;
+   color: wheat;
+   margin-top: 20px;
+ }
+
+ .info h4{
+   color:wheat;
+   margin-top: 20px;
+ }
+
+ .skill-graph h3{
+
+   color: wheat;
+   font-size: 28px;
+   margin-top: 30px;
+ }
+
+
+ .wrapper .right{
+   margin-left: 50px;
+ }
+ .right h1{
+  margin-top: -250px;
+   color: wheat;
+   font-size: 30px;
+ }
+
+ .info-container th{
+color: wheat;
+padding-top: 30px;
+font-size: 20px;
+ }
+
+ .skill-graph h3{
+   margin-top: 30px;
+ }
+
+ .skills{
+   margin-top: 20px;
+ }
+
+ .skill-box{
+  width: 100%;
+  padding: 10px;
+  background: rgb(119, 113, 113);
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0,.5);
+ 
+ 
+ }
+
+ .skill-box p{
+   color:wheat;
+   text-transform: uppercase;
+   padding: 0;
+   letter-spacing: 1px;
+ }
+
+ .skill-box p:nth-child(2){
+   float: right;
+   position: relative;
+   top:-25px
+  
+ }
+
+ .skill{
+   background: #4e4a4a;
+   padding: 3px;
+   box-sizing: border-box;
+   border: 1px solid#0fffb7;
+   border-radius:3px;
+ }
+
+ .skill-level{
+   background: #0fffb7;
+   width: 100%;
+   height: 5px;
+ }
+ 
+
+
+
+ @media screen and (max-width: 1200px){
+
+
+ 
+  .home-container{
+    height: 100% !important;
+    margin: auto;
+
+   
+  }
+    .wrapper{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+     
+    }
+
+    .wrapper .right{
+     margin: auto 0;
+     margin-top: 270px;
+     padding: 20px;
+     
+    }
+
+    .wrapper .left{
+      padding: 20px;
+    }
+
+  }
+

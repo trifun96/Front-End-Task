@@ -1,0 +1,192 @@
+.skill-container{
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 120px;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background-color:#3c4850;
+
+
+ 
+}
+
+.skill-container h1{
+  color: wheat;
+  margin-bottom: 25px;
+}
+
+.skill-container th,
+td {
+  border: 1px solid #ecc5c5;
+  padding: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  
+}
+
+.overflow-menu-container li{
+  color: black;
+}
+
+.add-new-skill-container {
+  position: relative;
+  margin: auto;
+
+  top: 20px;
+ 
+}
+
+.add-new-skill-btn{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    border: 1px solid  #121212;
+    background-color: rgba(156, 165, 156, 0.589);
+    color: #f6f6f6;
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-new-skill-btn:hover{
+  background-color: rgba(0, 128, 0, 0.24);
+}
+
+.skill-wrapper {
+  width: 60%;
+  height: 100vh;
+  padding: 10px;
+  margin-left: 240px;
+  color: wheat;
+  
+  
+ 
+}
+.skill-wrapper h1{
+text-align: center;
+}
+
+
+.hide-skill-wrapper {
+  display: none;
+}
+
+
+
+.icon-edit{
+  margin-left: 20px;
+  margin-right:10px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.icon-delete{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.table-row{
+  color:black;
+}
+
+.skills-wrapper{
+ 
+  display: flex;
+ padding: 100px;
+  justify-content: center;
+
+
+}
+
+.skills-wrapper h1{
+ font-size: 30px;
+
+}
+
+.skill-container input{
+  
+  width: 100%;
+  padding: 7px 13px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #98ccb9;
+  color: rgb(43, 35, 35);
+  
+  
+}
+
+.skills-container{
+  text-align: center;
+}
+
+.skills-container h1{
+  text-align: center;
+}
+
+@media screen and (max-width:1200px){
+  .skill-container{
+    margin: 0px auto ;
+  
+   
+    
+  }
+  .skill-container td {
+    padding: 5px;
+}
+
+.skill-container th {
+    padding: 5px !important;
+}
+
+.skill-wrapper{
+  margin: auto;
+  height: 100vh;
+  
+}
+
+.skills-wrapper{
+  flex-direction: column;
+ max-width: 700px;
+ padding: 150px;
+ 
+}
+
+
+}
+
+@media screen and (max-width:411px){
+  .skills-wrapper{
+  
+
+    padding: 0px;
+   
+   
+   }
+}
+@media screen and (max-width:411px){
+  .skills-wrapper{
+ 
+
+    padding: 0px;
+   
+   
+   }
+}
+
+@media screen and (max-width:360px){
+.skills-wrapper{
+ 
+
+ padding: 0px;
+
+
+}
+}
+
+
+
+
+
