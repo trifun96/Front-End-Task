@@ -23,6 +23,7 @@ function Skill(props) {
         e.preventDefault();
         const id = Math.floor(Math.random() * 1000);
         const dataToSend = { id, ...state };
+         props.onNewAdd(dataToSend);
         setState({ skillName: "", description: "", skillYearAquired: 0 })
     }
  
